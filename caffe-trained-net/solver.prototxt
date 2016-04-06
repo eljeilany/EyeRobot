@@ -1,0 +1,14 @@
+test_iter: 41
+test_interval: 572
+base_lr: 0.015
+display: 143
+max_iter: 17175
+lr_policy: "step"
+gamma: 0.1
+weight_decay: 0.0005
+stepsize: 5668
+snapshot: 343
+snapshot_prefix: "snapshot"
+solver_mode: GPU
+net: "train_val.prototxt"
+solver_type: ADAGRAD
